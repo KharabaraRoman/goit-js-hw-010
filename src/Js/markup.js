@@ -11,7 +11,7 @@ Notiflix.Notify.init({
   timeout: 1500,
 });
 
-export function markup(data) {
+export function markup(data) {ыы
   if (data.length === 1) {
     upgreatMarkup(refs.list.innerHTML, refs.info.innerHTML);
     refs.info.insertAdjacentHTML('beforeend', createInfoCountry(data));
